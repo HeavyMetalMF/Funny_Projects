@@ -1,0 +1,197 @@
+header{
+    margin-bottom: 100px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+}
+.gg{
+    color: red;
+}
+.invis{
+    display: none;
+}
+#calc {
+    width: 200px;
+    padding: 2px;
+    padding-bottom: 4px;
+    border: 1px solid #000;
+    font-size: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 4px;
+    font-size: 16px;
+    text-align: center;
+    transition: background .1s, color .1s;
+}
+
+#display {
+    display: block;
+    width: 185px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 4px;
+    text-align: right;
+    outline: 0;
+    background: #fff;
+    padding-right: 5px;
+}
+
+.button_C {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+div {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+.input{
+    color: red;
+}
+#input, #list {
+    display: inline-block;
+}
+#list {
+    padding: 0;
+    list-style-type: none;
+}
+#list .remove, #list .change {
+    color: blue;
+    cursor: pointer;
+}
+#list .remove:hover, #list .change:hover {
+    text-decoration: underline;
+}
+.remove, .change{
+    /*color: red;*/
+    margin-left: 5px;
+}
+/*#list .done .task{*/
+/*    text-decoration: line-through;*/
+/*}*/
+.done .task{
+    text-decoration: line-through;
+}
+.out{
+    text-align: center;
+    border: 1px solid grey;
+    width: 200px;
+    margin: 40px auto 0;
+}
+* {
+    box-sizing: border-box;
+}
+#parent {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#form {
+    display: flex;
+    margin-bottom: 15px;
+}
+#form input {
+    padding: 8px;
+    width: 24%;
+    margin: 0 0.5% 10px 0.5%;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+#table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#table td, #table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#table td.remove {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#table td.remove:hover {
+    text-decoration: none;
+}
+
+#result {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#field td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+#field{
+    margin: 0 auto;
+}
+
+#all_input {
+    position: relative;
+}
+#elem {
+    padding: 5px;
+    font-size: 18px;
+}
+
+#all_input ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+}
+#all_input li {
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 5px;
+}
+#all_input li:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.spoiler:not(.active) {
+    display: none;
+}
